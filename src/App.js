@@ -1,5 +1,6 @@
 import { useState } from "react";
 import "./styles.css";
+import { Analytics } from "@vercel/analytics/react";
 
 export default function App() {
   return (
@@ -63,6 +64,7 @@ function FlashCards() {
           </p>
         </div>
       ))}
+      <Analytics />
     </div>
   );
 }
