@@ -42,6 +42,23 @@ const questions = [
       "What do we call an input element that is completely synchronised with state?",
     answer: "Controlled element",
   },
+  {
+    id: 9876,
+    question:
+      "What React feature allows for conditional rendering based on certain conditions?",
+    answer: "JSX Elements",
+  },
+  {
+    id: 5432,
+    question:
+      "What method is used to change the state of a component in React?",
+    answer: "setState()",
+  },
+  {
+    id: 2109,
+    question: "What tool can be used for debugging React applications?",
+    answer: "React DevTools",
+  },
 ];
 
 function FlashCards() {
